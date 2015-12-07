@@ -26,7 +26,7 @@ const (
 <table class="bordered">
   <tbody>
 	<tr>
-	  <td>Name</td>
+	  <td>Name:</td>
 	  <td>{{.Name}}</td>
 	</tr>
 	<tr>

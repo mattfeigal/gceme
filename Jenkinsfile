@@ -4,7 +4,7 @@ node('docker') {
   // Kubernetes cluster info
   def cluster = 'gtc'
   def zone = 'us-central1-f'
-  def project = 'feigal-jenkins'
+  def project = 'feigalkubernetes'
 
   // Run tests
   stage 'Go tests'
