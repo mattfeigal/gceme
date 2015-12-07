@@ -1,5 +1,3 @@
-package main
-
 const (
 	html = `<!doctype html>
 <html>
@@ -18,7 +16,7 @@ const (
 <div class="col s8">
 
 
-<div class="card orange">
+<div class="card blue">
 <div class="card-content white-text">
 <div class="card-title">Backend that serviced this request</div>
 </div>
@@ -26,7 +24,7 @@ const (
 <table class="bordered">
   <tbody>
 	<tr>
-	  <td>Name:</td>
+	  <td>Name</td>
 	  <td>{{.Name}}</td>
 	</tr>
 	<tr>
@@ -58,7 +56,7 @@ const (
 </div>
 </div>
 
-<div class="card orange">
+<div class="card blue">
 <div class="card-content white-text">
 <div class="card-title">Proxy that handled this request</div>
 </div>
